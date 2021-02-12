@@ -1,3 +1,5 @@
+// @complexity  O(n+m)
+// space        O(n+m)
 const mergeArrays = (arr1, arr2) => {
   length = arr1.length + arr2.length;
   let mergedArray = [];
