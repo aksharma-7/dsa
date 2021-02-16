@@ -20,7 +20,7 @@ const moveNegativeAtBeginningUsingTwoPointer = (arr) => {
     if (arr[left] < 0) {
       left++;
     }
-    if (arr[left] > 0 && arr[right]) {
+    if (arr[left] > 0 && arr[right] < 0) {
       [arr[left], arr[right]] = [arr[right], arr[left]];
       left++;
       right--;
@@ -33,5 +33,5 @@ const moveNegativeAtBeginningUsingTwoPointer = (arr) => {
 
 arr = [-12, 11, -13, -5, 6, -7, 5, -3, -6];
 // moveNegativeAtBeginning(arr);
-// moveNegativeAtBeginningUsingTwoPointer(arr);
+moveNegativeAtBeginningUsingTwoPointer(arr);
 console.log(arr);

@@ -41,7 +41,7 @@ const maxAndMinComparingPairs = (arr) => {
     i = 2;
   } else {
     min = arr[0];
-    min = arr[0];
+    max = arr[0];
     i = 1;
   }
 
