@@ -1,5 +1,7 @@
 //find pair in a sorted array whose average sum is equal to target
 
+// @method      Two Pointer
+// @complexity  O(n)
 const averagePair = (nums, target) => {
   let low = 0;
   let high = nums.length - 1;
