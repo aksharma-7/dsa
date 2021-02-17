@@ -5,5 +5,4 @@ function sum(n) {
   return n + sum(n - 1);
 }
 
-// console.log(sum(6));
-console.log(sumTail(6));
+console.log(sum(6));
