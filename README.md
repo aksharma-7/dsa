@@ -1,1 +1,1 @@
-# Solutions of famous interview questions. Solved using Javasscript
+## Solutions of famous interview questions. Solved using Javascript
