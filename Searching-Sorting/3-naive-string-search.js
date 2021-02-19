@@ -1,4 +1,4 @@
-// Complexity   O(n**2)
+// Complexity   O(n*m)
 function searchString(long, short) {
   let count = 0;
   for (let i = 0; i < long.length; i++) {
